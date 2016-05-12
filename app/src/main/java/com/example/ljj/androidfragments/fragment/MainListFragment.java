@@ -31,8 +31,8 @@ public class MainListFragment extends Fragment implements AdapterView.OnItemClic
     public static String TITLE = "title";
     private static  final int postRequest = 1;//requestCode
     private ListView listView;
-    private List<String> mList = Arrays.asList("等夏天等秋天","等下个季节","要等到月亮变全","你才会回到我身边","要不要见面","没办法还是想念"
-    ,"突然想看你的脸","熟悉的感觉","不，牵手也可以漫步风霜雨雪","不，能相见也能朝思暮念");
+
+    private List<String> mList ;
 
     public MainListFragment() {
         // Required empty public constructor
@@ -71,6 +71,7 @@ public class MainListFragment extends Fragment implements AdapterView.OnItemClic
     }
 
     private void initView() {
+        mList = Arrays.asList(getActivity().getResources().getStringArray(R.array.main_list));
         adapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_list_item_1,mList);
         listView.setAdapter(adapter);
     }

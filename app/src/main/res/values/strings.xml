@@ -4,7 +4,20 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test_tint">请输入修改内容</string>
 
-    <style name="main_list_fragment">mainListFragment</style>
+    <string-array name="main_list">
+        <item>等夏天等秋天</item>
+        <item>等下个季节</item>
+        <item>要等到月亮变全</item>
+        <item>你才会回到我身边</item>
+        <item>要不要见面</item>
+        <item>没办法还是想念</item>
+        <item>突然想看你的脸</item>
+        <item>熟悉的感觉</item>
+        <item>不，牵手也可以漫步风霜雨雪</item>
+        <item>不，能相见也能朝思暮念</item>
+
+    </string-array>
 
 </resources>

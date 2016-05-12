@@ -47,7 +47,7 @@ public class ChangeDialogFragment extends DialogFragment implements View.OnClick
             intent.putExtra(CHANGE_TITLE, changText);
             getTargetFragment().onActivityResult(ContentFragment.REQUEST_DIALOG, Activity.RESULT_OK, intent);//根据TargetFragment回传值
         } else {
-            Toast.makeText(getActivity(), "请输入修改内容", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getActivity(), R.string.test_tint, Toast.LENGTH_SHORT).show();
         }
     }
 
