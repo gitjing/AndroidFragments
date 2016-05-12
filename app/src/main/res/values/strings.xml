@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AndroidFragments</string>
+    <string name="title_activity_content">ContentActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <style name="main_list_fragment">mainListFragment</style>
+
+</resources>
